@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Rokkitt:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@700&display=swap');
 body{
     margin:0;
     padding:0;
@@ -17,18 +17,23 @@ header{
     left:0;
     z-index:10;
 }
-img{
+.navbar-brand img{
    width:120px;
+}
+.navbar-brand span{
+    position:relative;
+    top:6px;
+    font-size:25px;
 }
 .title{
     margin-top:150px;
 }
-h1, h2{
+h1, h2, h3, h4{
     font-family: 'Rokkitt', serif;
-    color:white;
+
 }
-.title p{
-    color:white;
+h3, h4{
+    font-weight:lighter;
 }
 h1{
     font-size:50px;
@@ -39,6 +44,52 @@ h1{
 .btn1{
     background:#36c4c5;
 }
+.btn1:hover{
+    background:#36c4c5;
+    color:white;
+}
 .btn2{
     background:#f52257;
 }
+.btn2:hover{
+    background:#f52257;
+    color:white;
+}
+.presentation{
+    width:100vw;
+    height:100vh;
+}
+.articles{
+    background:white;
+}
+.logos{
+    height:50px;
+    width:50px;
+    margin-left:50%;
+    transform:translateX(-50%);
+    border:1px solid black;
+}
+.bck{
+    width:100%;
+    height:70%;
+    background:url(../images/bg_nuage.jpg)top center fixed no-repeat;
+    background-size:cover;
+}
+.encart{
+    margin-top:0;
+    margin-right:150px;
+    height:100%;
+    width:500px;
+    background:rgba(84, 174, 243, 0.5);
+}
+.encart h3{
+    color:white;
+}
+.encart h4{
+    font-size:22px;
+}
+
+
+
+
+
