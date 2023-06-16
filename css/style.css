@@ -66,7 +66,6 @@ h1{
     width:50px;
     margin-left:50%;
     transform:translateX(-50%);
-    border:1px solid black;
 }
 .bck{
     width:100%;
@@ -112,4 +111,23 @@ h1{
 }
 .galerie{
     background:lightgray;
+}
+.sponsor img{
+    width:120px;
+    height:120px;
+    object-fit:cover;
+}
+.contact{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/bg_newsletter.jpg);
+}
+input[type=email]{
+    border-radius:0;
+}
+footer{
+    height:150px;
+    width:100vw;
+    background:#24323b;
+}
+footer span{
+    color:#36c4c5
 }
